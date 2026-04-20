@@ -12,7 +12,7 @@ print(f'Слова: {spisok}')
 # Уровень 2
 
 id_ok = input('Введите разрешенные айди')
-Id_ok = set(id_ok)
+Id_ok = set(id_ok.split())
 
 vhod_id = input('Введите айди: ').split()
 
