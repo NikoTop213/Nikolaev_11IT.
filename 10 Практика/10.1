@@ -1,0 +1,14 @@
+print('Кодовая замочная скважина')
+
+real_pin = 4590
+password = False
+
+while True:
+    pin = int(input('Введите пин-код: '))
+    if pin == real_pin:
+        password = True
+        break
+    else:
+        print('Пин-код неверный')
+
+print('Открыто')
