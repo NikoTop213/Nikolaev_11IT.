@@ -1,0 +1,8 @@
+text = input('Введите слова: ').split()
+
+count = len(set(text))
+slova = sorted(set(text))
+spisok = " ".join(slova)
+
+print(f'Количество: {count}')
+print(f'Слова: {spisok}')
