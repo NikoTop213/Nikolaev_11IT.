@@ -1,0 +1,7 @@
+id_1 = set(map(int, input('Введите айди: ').split()))
+id_2 = set(map(int, input('Введите айди: ').split()))
+id_3 = set(map(int, input('Введите айди: ').split()))
+
+all_ids = set(range(11))
+prizraki = (all_ids - (id_1 | id_2 | id_3))
+print(prizraki)
