@@ -1,0 +1,8 @@
+agent = (2,2)
+save_point = [(1,1), (5,5), (0,3)]
+nearest = save_point[0]
+for i in save_point:
+    distance = abs(i[0] - 2) + abs(i[1] - 2)
+    if distance < abs(nearest[0] - 2) + abs(nearest[1] - 2):
+        nearest = i
+print(nearest)
