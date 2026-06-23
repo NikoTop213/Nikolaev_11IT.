@@ -1,0 +1,11 @@
+id_good = input('Введите разрешенные айди')
+Id_good = set(id_good.split())
+
+enter_id = input('Введите айди: ').split()
+
+for i in enter_id:
+    if i in Id_good:
+        print('OK')
+    else:
+        print('ADDED')
+        Id_good.add(i)+
