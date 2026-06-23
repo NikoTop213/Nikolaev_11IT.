@@ -1,0 +1,6 @@
+ip_1 = set(input('Введите айпи адрес: ').split())
+ip_2 = set(input('Введите айпи адрес: ').split())
+ip_3 = set(input('Введите айпи адрес: ').split())
+
+result = sorted((ip_1 | ip_2 | ip_3) - (ip_1 & ip_2 & ip_3))
+print(result)
