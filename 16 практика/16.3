@@ -1,0 +1,7 @@
+A = set(input('Введите имена файлов: ').split())
+B = set(input('Введите имена файлов: ').split())
+
+common = sorted(A & B)
+lost = sorted(A - B)
+print(f'Общие имена {common}')
+print(f'Потерянные имена {lost}')
