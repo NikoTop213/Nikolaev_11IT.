@@ -1,0 +1,6 @@
+CRU = set(input('Введите имена: ').split())
+MI_6 = set(input('Введите имена: ').split())
+KGB = set(input('Введите имена: ').split())
+
+agents = sorted((CRU & MI_6) - KGB, reverse=True)
+print(agents)
